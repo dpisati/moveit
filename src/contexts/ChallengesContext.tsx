@@ -84,7 +84,11 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
     }
 
     function resetChallenge() {
-        setActiveChallenge(null);
+        setActiveChallenge({
+            type: '',
+            description: '',
+            amount: 0
+        });
     }
 
     function completeChallenge() {
@@ -102,7 +106,11 @@ export function ChallengesProvider({ children, ...rest }: ChallengesProviderProp
         }
 
         setCurrentExp(finalExperience);
-        setActiveChallenge(null);
+        setActiveChallenge({
+            type: '',
+            description: '',
+            amount: 0
+        });
         setChallengesCompleted(challengesCompleted + 1);
     }
    
