@@ -20,7 +20,7 @@ export default function ChallengeBox() {
 
     return (
         <div className={styles.challengeBoxContainer}>
-            { activeChallenge ? (
+            { activeChallenge && activeChallenge.type !== '' ? (
                 <div className={styles.challengeActive}>
                     <header>Get {activeChallenge.amount} xp</header>                    
                     <main>
