@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img src="./.github/letmeaskLogoPng.png" alt="Letmeask" />
+    <img src="./.github/letmeaskLogoPng.png" alt="Moveit" />
     <br><br>
     <b>Moveit, staying healthy while programming.</b>  
     <br>
@@ -7,7 +7,7 @@
 
 ## Live Demo
 
-- [View Live Demo](moveit-sable.vercel.app)
+- [View Live Demo](https://dpmoveit.vercel.app/)
 
 # Index
 
