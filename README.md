@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img src="./.github/letmeaskLogoPng.png" alt="Moveit" />
+    <img src="./.github/moveItLogo.svg" alt="Moveit" />
     <br><br>
     <b>Moveit, staying healthy while programming.</b>  
     <br>
