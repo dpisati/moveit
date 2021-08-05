@@ -1,13 +1,13 @@
 <h3 align="center">
     <img src="./.github/letmeaskLogoPng.png" alt="Letmeask" />
     <br><br>
-    <b>Letmeask, create rooms for Q&A.</b>  
+    <b>Moveit, staying healthy while programming.</b>  
     <br>
 </h3>
 
 ## Live Demo
 
-- [View Live Demo](https://pisati-letmeask.web.app/)
+- [View Live Demo](moveit-sable.vercel.app)
 
 # Index
 
@@ -25,10 +25,10 @@
 
 ## :bookmark: About
 
-<strong>Letmeask</strong> is a realtime web application and to create rooms for Q&A.
+<strong>Moveit</strong> is a web application that helps to keep healthy while programming.
 
-This application was made during the <strong>Next Level Week - Together</strong> promoted by [Rocketseat](https://rocketseat.com.br/). 
-The app was made to help people to combine questions organized by room. Inside each room, the admin can: highlight, answer and delete questions made in real-time!
+This application was made during the <strong>Next Level Week</strong> promoted by [Rocketseat](https://rocketseat.com.br/). 
+The app was made to help people to combine health and work. It sets 25 minutes to focus on your code, or any office task, but also remembers you to have a break and perform a quick exercise to keep you healthy while working on a computer!
 
 <br>
 
@@ -39,16 +39,10 @@ The app was made to help people to combine questions organized by room. Inside e
 <br>
 
 - Users:
-  - [x] Login using Google account.
-  - [x] Create a new room.
-  - [x] Manage room as administrator.
-  - [x] Enter in an existed room using the room code.
-
-- Admin:
-  - [x] Highlight question.
-  - [x] Check question as answered.
-  - [x] Delete question.
-  - [x] Close room.
+  - [x] Start a new challenge.
+  - [x] Cancel current challenge.
+  - [x] Complete a challenge.
+  - [x] Receive a quick and easy exercise.
   
 <br>
 
@@ -59,9 +53,8 @@ The app was made to help people to combine questions organized by room. Inside e
 The project is made with:
 
 - [ReactJS](https://reactjs.org/)
+- [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Firebase Auth](https://firebase.google.com/)
-- [Firebase Realtime Database](https://firebase.google.com/)
 
 <br>
 
@@ -89,37 +82,17 @@ The project is made with:
 1. First step, clone this github repository:
 
 ```sh
-  $ git clone https://github.com/dpisati/letmeask.git
+  $ git clone https://github.com/dpisati/moveit.git
 ```
 
 2. Run the application:
 
 ```sh
-  # Install dependencies for each folder: mobile, server, web.
+  # Install dependencies.
   $ yarn
 
   # Run the app on localhost.
   $ yarn start
-```
-
-3. Setup an firebase, using auth and realtime database. [Firebase](https://firebase.google.com/):
-
-The **web** application requires a few **tokens** from Firebase. To be able to get those, create a new project on Firebase. Go to the web project and setting to be able to generate the variables listed below.
-
-Example:
-
-File: `letmeask/.env.local`
-
-Content:
-
-```text
-REACT_APP_API_KEY
-REACT_APP_AUTH_DOMAIN
-REACT_APP_DATABASE_URL
-REACT_APP_PROJECT_ID
-REACT_APP_STORAGE_BUCKET
-REACT_APP_MESSAGING_ID
-REACT_APP_APP_ID
 ```
 
 <br>
